@@ -4,11 +4,12 @@ public class swap2
 {
     static void swap(ref int a, ref int b)// a and b both are local variable
     {
-        int temp = a;
-        a = b;
-        b = temp;
-        //a = a + b; // a = 30
-        //b = b - a; // b = 10
+        //int temp = a;
+        //a = b;
+       // b = temp;
+        a = a + b; // a = 30
+        b = a - b; // b = 10
+        a = a - b;
     }
     public static void Main(string[] args)
     {
